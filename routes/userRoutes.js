@@ -21,6 +21,8 @@ userRouter.post(
           token: generateToken(user),
         });
         return;
+      } else {
+        res.status(401).send({ message: "Incorrect Email or Password" });
       }
     } else {
       res.status(401).send({ message: "Invalid email or Password" });
