@@ -1,6 +1,24 @@
 import bcrypt from "bcryptjs";
 
 export const data = {
+  articles: [
+    {
+      img: "https://post.healthline.com/wp-content/uploads/2020/09/Male_Indoor_Plants_732x549-thumbnail-732x549.jpg",
+      name: "How to Care for Snake Plant",
+      description:
+        "Snake plants, also known as “Mother-in-Law’s Tongue” andSansevieria, are one of the easiest houseplants to take care of.This succulent plant is very forgiving and perfect for beginners. Here’s how to care for a snake plant in your home!  Native to southern Africa, snake plants are well adapted to conditions similar to those in southern regions of the United States. Because of this, they may be grown outdoors for part of all of the year in USDA zones 8 and warmer. However, they spread by sending out underground runners and may become invasive, so treat snake plants like you would bamboo; plant it only in contained areas or pots. Too much water and freezing temperatures are two of the very few things that can really affect this plant in a significant way. Soggy soil will cause root rot and extended exposure to cold temperatures can damage the foliage.",
+      rating: 3,
+      reviews: 10,
+    },
+    {
+      img: "https://post.healthline.com/wp-content/uploads/2020/09/Male_Indoor_Plants_732x549-thumbnail-732x549.jpg",
+      name: "How to Care for Snake",
+      description:
+        "Snake plants, also known as “Mother-in-Law’s Tongue” andSansevieria, are one of the easiest houseplants to take care of.This succulent plant is very forgiving and perfect for beginners. Here’s how to care for a snake plant in your home!  Native to southern Africa, snake plants are well adapted to conditions similar to those in southern regions of the United States. Because of this, they may be grown outdoors for part of all of the year in USDA zones 8 and warmer. However, they spread by sending out underground runners and may become invasive, so treat snake plants like you would bamboo; plant it only in contained areas or pots. Too much water and freezing temperatures are two of the very few things that can really affect this plant in a significant way. Soggy soil will cause root rot and extended exposure to cold temperatures can damage the foliage.",
+      rating: 3,
+      reviews: 10,
+    },
+  ],
   users: [
     {
       name: "Admin",
@@ -23,6 +41,7 @@ export const data = {
       price: "500",
       slug: "Monstera",
       countInStock: 0,
+      discount: 0,
       rating: 3,
       reviews: 5,
     },
@@ -33,6 +52,7 @@ export const data = {
       price: "200",
       slug: "Guuchu_Jade",
       countInStock: 8,
+      discount: 10,
       rating: 3.5,
       reviews: 5,
     },
@@ -43,6 +63,7 @@ export const data = {
       price: "100",
       slug: "Teleflora's_Luxe_Leaves",
       countInStock: 10,
+      discount: 0,
       rating: 2.5,
       reviews: 5,
     },
@@ -53,6 +74,7 @@ export const data = {
       price: "1000",
       slug: "Costa_Farms_Snake_Plant",
       countInStock: 2,
+      discount: 0,
       rating: 2.0,
       reviews: 5,
     },
@@ -63,6 +85,7 @@ export const data = {
       price: "800",
       slug: "White_Chamber_pot",
       countInStock: 5,
+      discount: 0,
       rating: 4.0,
       reviews: 5,
     },
